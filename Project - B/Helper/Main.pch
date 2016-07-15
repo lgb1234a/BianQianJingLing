@@ -1,0 +1,39 @@
+//
+//  Main.pch
+//  Project - B
+//
+//  Created by lcy on 15/10/15.
+//  Copyright (c) 2015年 lcy. All rights reserved.
+//
+
+#ifndef Project___B_Main_pch
+#define Project___B_Main_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define KScreen_Width  [UIScreen mainScreen].bounds.size.width
+#define KScreen_Height [UIScreen mainScreen].bounds.size.height
+#define tipsX          _nailsBtn.frame.origin.x
+#define tipsY          _nailsBtn.frame.origin.y + (_nailsBtn.bounds.size.height - _nailsBtn.bounds.size.height * 0.5) * 0.5
+#define tipsW          0
+#define finalW         _nailsBtn.bounds.size.width * 1.5
+#define tipsH          _nailsBtn.bounds.size.height * 0.5
+#define timeLineX      KScreen_Width * 12 / 15.0
+#define weatherUrl     @"http://webservice.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName?theCityName="
+#define weatherTableName        @"weather"
+#define noteTableName           @"note"
+#define notificationTableName   @"notification"
+#define accountTableName        @"account"
+#define restDayTableName        @"restDay"
+#define notFresh                @"notFirstUse"
+
+//#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#define debugMethod() NSLog(@"%s", __func__)
+//#else
+//#define NSLog(...)
+//#define debugMethod()
+//#endif
+
+#endif

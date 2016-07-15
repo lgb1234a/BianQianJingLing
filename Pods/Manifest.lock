@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - MaryPopin (1.4.2)
+
+DEPENDENCIES:
+  - FMDB (~> 2.5)
+  - MaryPopin (~> 1.4.2)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  MaryPopin: 24affc7fab9608dcad88279e32e774e5de5d54ac
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C89E5B5E-681E-4609-BD21-F91BF7986130</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project - B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B56ED0B9C5D007CFF53348C17AEDF851C4D9BABF</key>
+		<string>https://github.com/lgb1234a/Project---B-restruct-.git</string>
+		<key>DAB66B263EF161A9B5DB55FA57E641807F2D6BE1</key>
+		<string>https://git.oschina.net/lcyshuaishuaishuaishuai/PB.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project - B.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B56ED0B9C5D007CFF53348C17AEDF851C4D9BABF</key>
+		<string>../../Project---B-restruct-</string>
+		<key>DAB66B263EF161A9B5DB55FA57E641807F2D6BE1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/lcyshuaishuaishuaishuai/PB.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAB66B263EF161A9B5DB55FA57E641807F2D6BE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAB66B263EF161A9B5DB55FA57E641807F2D6BE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gitgit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B56ED0B9C5D007CFF53348C17AEDF851C4D9BABF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project---B-restruct-</string>
+		</dict>
+	</array>
+</dict>
+</plist>

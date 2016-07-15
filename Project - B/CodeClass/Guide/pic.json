@@ -1,0 +1,28 @@
+[
+ {
+ "text" : "开始创建我们的第一个便签吧.",
+ "image" : "pick_1.gif",
+ "placeholderImg" : "pick_1.png"
+ },
+ {
+ "text" : "存储便签的酷炫方式.",
+ "image" : "save.gif",
+ "placeholderImg" : "save.png"
+ },
+ {
+ "text" : "移除一样的酷炫.",
+ "image" : "delete_1.gif",
+ "placeholderImg" : "delete_1.png"
+ },
+ {
+ "text" : "来看看我们有哪些便签吧.",
+ "image" : "background.gif",
+ "placeholderImg" : "background.png"
+ },
+ {
+ "text" : "喏？不满意这些内容？？",
+ "image" : "delete_2.gif",
+ "placeholderImg" : "delete_2.png",
+ "button" : "进去看看吧！"
+ }
+]
