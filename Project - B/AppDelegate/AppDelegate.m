@@ -30,31 +30,18 @@
 //    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"onLine"];
     [NSThread sleepForTimeInterval:1.0];
     
-    
-    
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
     
 //    if([[NSUserDefaults standardUserDefaults] boolForKey:notFresh])
 //    {
-//        UICollectionViewLayout *layout = [[UICollectionViewLayout alloc] init];
+//        // 不需要显示引导页
 //        
-//        ViewController *rootVC= [[ViewController alloc] init];
-//        WeatherViewController *weatherVC = [[WeatherViewController alloc] initWithCollectionViewLayout:layout];
-//        NoteViewController *noteVC = [[NoteViewController alloc] initWithCollectionViewLayout:layout];
-//        NotificationViewController *notificationVC = [[NotificationViewController alloc] initWithCollectionViewLayout:layout];
-//        AccountViewController *accountVC = [[AccountViewController alloc] initWithCollectionViewLayout:layout];
-//        RestDayViewController *restDayVC = [[RestDayViewController alloc] initWithCollectionViewLayout:layout];
-//        
-//        NSArray *array = @[rootVC, weatherVC, noteVC, notificationVC, accountVC, restDayVC];
-//        
-//        SPNavigationController *rootNv = [[SPNavigationController alloc]init];
-//        rootNv.viewControllers = array;
-//        
-//        _window.rootViewController = rootNv;
+//        [self gotoHomeViewController];
 //    }else
 //    {
+        // 需要进入引导页
         GuideViewController *guideVC = [[GuideViewController alloc] init];
         _window.rootViewController = guideVC;
 //    }
@@ -63,6 +50,27 @@
     
     return YES;
 }
+
+// 进入首页
+- (void)gotoHomeViewController
+{
+    UICollectionViewLayout *layout = [[UICollectionViewLayout alloc] init];
+    
+    ViewController *rootVC= [[ViewController alloc] init];
+    WeatherViewController *weatherVC = [[WeatherViewController alloc] initWithCollectionViewLayout:layout];
+    NoteViewController *noteVC = [[NoteViewController alloc] initWithCollectionViewLayout:layout];
+    NotificationViewController *notificationVC = [[NotificationViewController alloc] initWithCollectionViewLayout:layout];
+    AccountViewController *accountVC = [[AccountViewController alloc] initWithCollectionViewLayout:layout];
+    RestDayViewController *restDayVC = [[RestDayViewController alloc] initWithCollectionViewLayout:layout];
+    
+    NSArray *array = @[rootVC, weatherVC, noteVC, notificationVC, accountVC, restDayVC];
+    
+    SPNavigationController *rootNv = [[SPNavigationController alloc]init];
+    rootNv.viewControllers = array;
+    
+    _window.rootViewController = rootNv;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

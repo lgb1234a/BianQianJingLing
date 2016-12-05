@@ -14,6 +14,7 @@
 // 夜间模式
 @property (assign, nonatomic) BOOL inNightMode;
 
+- (void)gotoHomeViewController;
 
 @end
 

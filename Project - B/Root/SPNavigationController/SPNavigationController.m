@@ -48,15 +48,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-   
-    
-    
     self.view.backgroundColor = [UIColor whiteColor];
     [self creatCenterPointAndTag];
     [self addViewToMainView];
     [self setFrdButton];
     
 }
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+}
+
 
 - (void)addViewToMainView
 {

@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SCGIFImageView.h"
+#import "YLImageView.h"
+#import "YLGIFImage.h"
 @interface GuideView : UIView
 
-@property (strong, nonatomic) IBOutlet SCGIFImageView *imgView;
+@property (weak, nonatomic) IBOutlet YLImageView *imgView;
 @property (weak, nonatomic) IBOutlet UILabel *introduce;
 @property (weak, nonatomic) IBOutlet UIButton *tapInBtn;
+@property (weak, nonatomic) IBOutlet UIPageControl *indexPageControl;
 
-@property (strong, nonatomic) NSData *gifData;
+@property (copy, nonatomic) NSString *gifImage;
 
 
 @end

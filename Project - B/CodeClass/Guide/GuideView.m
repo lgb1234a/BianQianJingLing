@@ -13,14 +13,12 @@
 
 - (void)awakeFromNib
 {
-    
+    [super awakeFromNib];
 }
 
-
-- (void)setGifData:(NSData *)gifData
+- (void)setGifImage:(NSString *)gifImage
 {
-    _gifData = [gifData copy];
-    _imgView = [[SCGIFImageView alloc] initWithGIFData:gifData];
+    _imgView.image = [YLGIFImage imageNamed:gifImage];
 }
 
 @end

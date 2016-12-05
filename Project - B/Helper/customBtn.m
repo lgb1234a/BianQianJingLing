@@ -25,7 +25,6 @@
 // 结束
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    
     // 判定结束位置，在时间轴上，创建便条
     // 不在时间轴上，删除便条
     UITouch *touch = [touches anyObject];
